@@ -1,0 +1,6 @@
+framework module Pods_RedLabel_Tests {
+  umbrella header "Pods-RedLabel_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

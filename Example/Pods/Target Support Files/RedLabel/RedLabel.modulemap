@@ -1,0 +1,6 @@
+framework module RedLabel {
+  umbrella header "RedLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}

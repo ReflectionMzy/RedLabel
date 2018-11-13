@@ -28,8 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3CA7FDB546FE10733CFA211C /* RedLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RedLabel.podspec; path = ../RedLabel.podspec; sourceTree = "<group>"; };
-		5900D34E32081688CFDD5B07 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3CA7FDB546FE10733CFA211C /* RedLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RedLabel.podspec; path = ../RedLabel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5900D34E32081688CFDD5B07 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* RedLabel_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedLabel_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		769B0824B76B7695EC0181DF /* Pods_RedLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E04596C601FC5586DD40974 /* Pods_RedLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		803650B73469D83C2BCDC6A1 /* Pods-RedLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedLabel_Example.debug.xcconfig"; path = "Target Support Files/Pods-RedLabel_Example/Pods-RedLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		944379C01100DB91C7041925 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		944379C01100DB91C7041925 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		AA3F483635DBC508416DE377 /* Pods-RedLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedLabel_Example.release.xcconfig"; path = "Target Support Files/Pods-RedLabel_Example/Pods-RedLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F5ACE68B2D41DDE4E9EFFC74 /* Pods-RedLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedLabel_Tests.release.xcconfig"; path = "Target Support Files/Pods-RedLabel_Tests/Pods-RedLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F6FC4FF8AEE75C8F1DF1EB82 /* Pods-RedLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedLabel_Tests.debug.xcconfig"; path = "Target Support Files/Pods-RedLabel_Tests/Pods-RedLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -156,7 +156,6 @@
 				F6FC4FF8AEE75C8F1DF1EB82 /* Pods-RedLabel_Tests.debug.xcconfig */,
 				F5ACE68B2D41DDE4E9EFFC74 /* Pods-RedLabel_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

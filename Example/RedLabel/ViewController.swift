@@ -7,18 +7,22 @@
 //
 
 import UIKit
+import RedLabel
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let label = MMRedLabel(frame: CGRect(x: 50, y: 50, width: 100, height: 100))
+        view.addSubview(label)
+        label.log()
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
 }
 
