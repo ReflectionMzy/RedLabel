@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RedLabel_Example' do
+  pod 'RedLabel', :path => '../'
+
+  target 'RedLabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
